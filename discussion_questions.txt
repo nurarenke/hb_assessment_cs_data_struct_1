@@ -19,3 +19,20 @@ Stack and Queues:
 
 Linked Lists:
 
+    1.a The nodes are the Apple box with an arrow pointing at the Berry box and the
+        Berry box has an arrow pointing at the Cherry box. The Cherry Box is pointing at None.
+    1.b The data for each box is the text "Apple", "Berry", "Cherry".
+    1.c The head is a an attribute of the LList Class which is pointing at the Apple
+        box.
+    1.d The LList doesn't have a defined tail pointer, but if were to create an LList
+        attribute of tail, you would point it at the Cherry box.
+
+Trees:
+
+    1. food, Italian, Indian, Mexican, lasagna, pizza, tikka Masala, saag, burritos
+
+    2. food, Italian, lasagna, pizza, thin crust, Chicago-style
+
+    3. A binary search tree is a binary tree, which means that the node can only 
+        have up to two children nodes below it. In order to create a binary search tree from a binary tree, the node value on the left has to be lower than the value on the right.
+
