@@ -1,0 +1,21 @@
+Runtime:
+
+    1. Based on how many animals are in the box would determine the number of tasks required in order to find an elephant.
+
+    2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
+
+Stack and Queues:
+
+    1.1 Stack
+    1.2 Queue
+    1.3 Stack
+
+    2.a A call center that put people on hold and answers in the order of who
+        called first. 
+    2.b A task manager that gives you the oldest task first.
+
+    3.a A task manager that gives you the newest task first. 
+    3.b Implementing an undo button.
+
+Linked Lists:
+
