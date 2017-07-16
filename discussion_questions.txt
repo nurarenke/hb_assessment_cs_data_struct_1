@@ -1,6 +1,6 @@
 Runtime:
 
-    1. Based on how many animals are in the box would determine the number of tasks required in order to find an elephant.
+    1. The workload is based on how many animals are in the box, because that will determine the number of tasks required in order to find an elephant.
 
     2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
 
@@ -24,8 +24,14 @@ Linked Lists:
     1.b The data for each box is the text "Apple", "Berry", "Cherry".
     1.c The head is a an attribute of the LList Class which is pointing at the Apple
         box.
-    1.d The LList doesn't have a defined tail pointer, but if were to create an LList
-        attribute of tail, you would point it at the Cherry box.
+    1.d The LList doesn't have a defined tail pointer, but if it were to create an 
+        LList attribute of tail, you would point it at the Cherry box.
+
+    2. A single linked list is made up of nodes that point to the next node. A doubly
+        linked list is made up of nodes that point to the previous node and the next node.
+
+    3. It's faster to append to a linked list, if we know the tail, because then we 
+        won't have to traverse the list each time to find the end. We can just append the item to the tail. 
 
 Trees:
 

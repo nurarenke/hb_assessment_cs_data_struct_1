@@ -28,7 +28,7 @@ class Node(object):
 
         # FIXME
 
-        pass
+        return len(self.children)
 
 
 class Tree(object):
@@ -45,7 +45,6 @@ class Tree(object):
     def depth_first_search(self, data):
         """Return node object with this data, traversing the tree depth-first.
 
-        Start at the root, and return None if not found.
         """
 
         to_visit = [self.root]
@@ -58,6 +57,8 @@ class Tree(object):
 
             to_visit.extend(node.children)
 
+
+   
 
     def breadth_first_search(self, data):
         """Return node object with this data, traversing the tree breadth-first.
@@ -93,8 +94,20 @@ class Tree(object):
 
         """
 
-        # FIXME
-        pass
+        # create a list and visit the root first
+        to_visit = [self.root]
+
+        # while you have a node to search
+        # pop off the first node and store it in the node variable
+        while to_visit:
+            node = to_visit.pop(0)
+
+            # if node's data match our data, return that node
+            if node.data == data:
+                return node
+
+            # if not, then we add it's children to our to_visit list
+            to_visit.extend(node.children)
 
 if __name__ == "__main__":
     import doctest
